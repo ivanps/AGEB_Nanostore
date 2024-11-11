@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="project" actualview="Espacio1" version="6.3" system="Mapa Digital">
+  <spaceView name="Espacio1" visible="True" width="1552" height="687" top="-31" left="-8" maximized="True" panWidth="200" extent="XMin:-107.50609735 YMin:24.74407978 XMax:-107.29041774 YMax:24.84890821">
+    <config backColor="255:255:255" selectionColor="0:255:255" outlineonly="False" transparency="50" scale="True" gdi="0" measureUnit="904201" keepOrder="False" useRTree="False">
+      <minimap visible="False" fileName="" />
+      <coordsys wkt="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;World_Geodetic_System_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137,298.257223563],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.0174532925199433]]" />
+    </config>
+    <layer name="nanostores_agebs" fileName="Nanostores_SHP\nanostores_agebs.shp" zorder="1" indexDoc="-1" visible="True" expanded="True" transparency="0" minScale="0" maxScale="5.88235294117647E-309" metadata="" scope="" shpParams="False">
+      <polygon color="173:255:0" pattern="SOLID" patternName="" outLineColor="128:128:128" outLineWidth="1" outLineStyle="SOLID" />
+      <attribute name="nanostores_agebs" descFileName="" filterFileName="" viewDesc="False" selectionColor="141:214:247" />
+      <labels visible="True" color="255:255:255" colorField="" fontName="Arial" fontSize="8" fontStyle="NORMAL" fontColor="1:1:1" fontColorField="" rotate="0" rotateField="" position="MIDDLECENTER" positionField="" alignment="LEFTJUSTIFY" duplicates="True" allocator="True" minScale="0" maxScale="5.88235294117647E-309" sizeField="">
+        <field fieldName="CVE_AGEB" alias="nanostores_agebs" visible="True" mask="" constant="" separator="&lt;BR&gt;" fieldType="C" fontName="Tahoma" fontSize="8" fontColor="1:1:1" rotate="0" bold="True" italic="False" underline="False" />
+      </labels>
+    </layer>
+    <layer name="nanostores_location" fileName="Nanostores_SHP\nanostores_location.shp" zorder="0" indexDoc="-1" visible="True" expanded="True" transparency="0" minScale="0" maxScale="5.88235294117647E-309" metadata="" scope="" shpParams="False">
+      <point name="MARKER:1" index="1" size="7" color="255:0:0" angle="0" outLineColor="128:128:128" outLineWidth="0" />
+      <attribute name="nanostores_location" descFileName="" filterFileName="" viewDesc="False" selectionColor="141:214:247" />
+      <labels visible="True" color="255:255:255" colorField="" fontName="Arial" fontSize="8" fontStyle="NORMAL" fontColor="1:1:1" fontColorField="" rotate="0" rotateField="" position="MIDDLECENTER" positionField="" alignment="RIGHTJUSTIFY" duplicates="True" allocator="True" minScale="0" maxScale="5.88235294117647E-309" sizeField="">
+        <field fieldName="NOMBRE DE" alias="nanostores_location" visible="True" mask="" constant="" separator="&lt;BR&gt;" fieldType="C" fontName="Tahoma" fontSize="8" fontColor="1:1:1" rotate="0" bold="False" italic="False" underline="False" />
+      </labels>
+    </layer>
+  </spaceView>
+</project>
