@@ -21,7 +21,7 @@ git clone https://github.com/ivanps/AGEB_Nanostore.git
 cd AGEB_Nanostore
 ```
 2. Copy the Shapefile from INEGI in the folder AGEBs.
-3. Copy a file CSV con the ID of nanostores and their GPS location. File 'Nanostores_location.csv'.
+3. Copy a file CSV con the ID of nanostores and their GPS location. The file should have the GPS location in the columns Latitud y Longitud. File 'Nanostores_location.csv'.
 4. Run the code in AGEB_Locator.ipynb.
 5. The nanostore location output is save in the file 'AGEB_Nanostores.csv'.
 
