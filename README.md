@@ -12,6 +12,8 @@ Features:
 
 ## Installation
 
+You should fork and clone this repository, so you can use Git commands. Check out the [Git commands in W3schools](https://www.w3schools.com/git/default.asp).
+
 1. Clone the repository and navigate to the project directory
 ```bash
 git clone https://github.com/ivanps/AGEB_Nanostore.git
